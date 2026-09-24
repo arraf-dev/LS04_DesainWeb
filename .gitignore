@@ -1,0 +1,10 @@
+# Local and generated files
+tmp/
+.env
+vendor/
+node_modules/
+.phpunit.result.cache
+
+# Operating-system files
+.DS_Store
+Thumbs.db
