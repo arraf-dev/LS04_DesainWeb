@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Perbandingan hero</title>
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; }
+    .row { display: flex; gap: 8px; overflow-x: auto; padding: 8px; }
+    figure { margin: 0; flex: none; }
+    figcaption { font-size: 14px; padding: 4px 0; }
+    img { display: block; } /* tanpa width/height agar tampil ukuran asli (100%) */
+  </style>
+</head>
+<body>
+  <div class="row">
+    <figure><figcaption>Pembanding (PNG lossless) - 736 px</figcaption><img src="../../source-assets/product-3-original.jpg" alt=""></figure>
+    <figure><figcaption>JPEG q75 - 22.0 KB</figcaption><img src="../../optimized-assets/product-3-optimized.jpg" alt=""></figure>
+    <figure><figcaption>WebP q75 - 12.1 KB</figcaption><img src="../../optimized-assets/product-3-optimized.webp" alt=""></figure>
+  </div>
+</body>
+</html>
